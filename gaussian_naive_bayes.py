@@ -6,7 +6,7 @@ class GaussianNaiveBayes:
         self.description = dict()
 
     def gaussian_pdf(self, x, m, std):        
-        """Compute the output of the logistic function.
+        """Compute the output of the Gaussian probability density function.
 
         Parameters
         ----------
